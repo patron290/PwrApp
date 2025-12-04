@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="PwrApp.Domain/PwrApp.Domain.csproj" Id="2efc2305-b8f3-40d6-802f-5f6610549fdf" />
+  <Project Path="PwrApp.Infrastructure/PwrApp.Infrastructure.csproj" Id="a2055830-2655-4abe-b4c3-6e3957084058" />
   <Project Path="PwrApp/PwrApp.csproj" />
 </Solution>
