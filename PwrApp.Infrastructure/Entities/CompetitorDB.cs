@@ -2,7 +2,7 @@
 
 namespace PwrApp.Infrastructure.Entities;
 
-public sealed class Competitor
+public sealed class CompetitorDB
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;

@@ -5,7 +5,7 @@ namespace PwrApp.Infrastructure.Context;
 
 public class PwrAppContext : DbContext
 {
-    public DbSet<Competitor> Competitors { get; set; }
+    public DbSet<CompetitorDB> Competitors { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -14,7 +14,7 @@ public class PwrAppContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Competitor>(entity =>
+        modelBuilder.Entity<CompetitorDB>(entity =>
         {
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Name).IsRequired().HasMaxLength(100);

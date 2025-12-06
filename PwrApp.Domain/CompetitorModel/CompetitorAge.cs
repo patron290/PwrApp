@@ -1,4 +1,4 @@
-﻿namespace PwrApp.Domain.Competitor;
+﻿namespace PwrApp.Domain.CompetitorModel;
 
 public sealed class CompetitorAge
 {
